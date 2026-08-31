@@ -13,7 +13,7 @@ The lookup matrices span across two primary workbooks:
 2. ## `Hospital_Master.xlsx` Sheet: Managed by IT , holding hospital capacity and network infrastructure metrics across `Hospital_Details` and `Accereditation_Benchmark`.
 
 ## Analytics Breakdown & Advanced Formula Implementations
-*Note: All formulars are tailored with commas (`,`) separatorsto match regional system localization standard*
+*Note: All formulars are tailored with commas (`,`) separators to match regional system localization standard*
 
 ### Doctor Responsibility Analysis (Clinical Audit Desk)
 * **Objective:** Extract the attending doctor's full name from a separate directory using alpha-numeric code to remove manual validtaion  overhead.
@@ -71,4 +71,12 @@ The lookup matrices span across two primary workbooks:
   = IFERROR(VLOOKUP(E2,Doctor_Directory!$A$2:$D$31,4,FALSE),"Check Doctor Code")
   ```
 
-### Matrix Rate Extraction ()
+### Matrix Rate Extraction (Insurance Administration Desk)
+* **Objective:** Perform a complex 2D lookup checking intersection parameters across States(rows) and calculated Age Brackets (columns) simultaneously.
+* **Formular:**
+* ```excel
+=XLOOKUP(C2,Insurance_Reimbursement_Matrix!$A$2:$A$6,XLOOKUP(XLOOKUP(F2,Age_Bracket_Reference!$A$2:$A$6,Age_Bracket_Reference!$B$2:$B$6,,-1),Insurance_Reimbursement_Matrix!$B$1:$F$1,Insurance_Reimbursement_Matrix!$B$2:$F$6))
+```
+
+### Key Technical Skills Demonstrated
+* ** Advanced Lookups:** 
