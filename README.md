@@ -36,7 +36,7 @@ The lookup matrices span across two primary workbooks:
   =VLOOKUP(I2,Bill_Tier_Reference!$A$2:$B$5,2,TRUE)
   ```
 
-### Demographics Cohort Analysis(Reporting Desk)
+### Demographics Cohort Analysis (Reporting Desk)
 * **Objective:** Standardize raw age values into structural life-stage categories for quarterly dashboard consumption.
 * **Formular:**
 * ```excel
