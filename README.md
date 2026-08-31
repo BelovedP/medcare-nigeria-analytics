@@ -16,7 +16,7 @@ The lookup matrices span across two primary workbooks:
 *Note: All formulars are tailored with commas (`,`) separators to match regional system localization standard*
 
 ### Doctor Responsibility Analysis (Clinical Audit Desk)
-* **Objective:** Extract the attending doctor's full name from a separate directory using alpha-numeric code to remove manual validtaion  overhead.
+* **Objective:** Extract the attending doctor's full name from a separate directory using alpha-numeric code to remove manual validation  overhead.
 * **Formular:**
 * ```excel
   =IFNA(VLOOKUP(TRIM(E2),Doctor_Directory!$A$2:$D$31,2,FALSE),"No name")
