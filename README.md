@@ -9,5 +9,5 @@ This project solves critical operational and analytical requests from multiple c
 The analytics pipelines handles **200 patient rows** spanning 10 core fields in 'MedCare_Nigeria_Analytics.xlsx'. Due to upstream extraction inconsistencies, internal hospital names contain trailing and leading spaces which reuires robust trimming functions to avoid breaking reference pointers.
 
 The lookup matrices span across two primary workbooks:
-1. # 'MedCare_Nigeria_Analytics.xlsx' Sheet: 'Readme Documentation', 'Doctor_Directory', 'Bill_Tier_Reference', 'Age_Bracket_Reference', 'Protocol_reference', 'State_Coordinator', and 'Insurance_Reimbursement_Matrix'.
-2. ## 'Hospital_Master.xlsx' Sheet: Managed by IT , holding hospital capacity and network infrastructure metrics across 'Hospital_Details' and 'Accereditation_Benchmark'.
+1. ## `MedCare_Nigeria_Analytics.xlsx` Sheet: `Readme Documentation`, `Doctor_Directory`, `Bill_Tier_Reference`, `Age_Bracket_Reference`, `Protocol_reference`, `State_Coordinator`, and `Insurance_Reimbursement_Matrix`.
+2. ## `Hospital_Master.xlsx` Sheet: Managed by IT , holding hospital capacity and network infrastructure metrics across `Hospital_Details` and `Accereditation_Benchmark`.
