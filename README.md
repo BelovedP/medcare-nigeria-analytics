@@ -22,4 +22,9 @@ The lookup matrices span across two primary workbooks:
   =IFNA(VLOOKUP(TRIM(E2),Doctor_Directory!$A$2:$D$31,2,FALSE),"No name")
   ```
 
-  ### Financial Standardization & Master Data Integration ( Finance Desk )
+### Financial Standardization & Master Data Integration (Finance Desk)
+* **Objective:** Pull the official Network ID from an external master database file (`Hospital_Master.xlsx`) to normalize financial reportinglayouts,resolving whitespace fragmentation.
+* **Formular:**
+* ```excel
+  =VLOOKUP(TRIM(D2),[Hospital_Master.xlsx]Hospital_Details'!$A$2:$D$16,2,FALSE)
+  ```
