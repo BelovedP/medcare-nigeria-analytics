@@ -82,5 +82,5 @@ The lookup matrices span across two primary workbooks:
 * **Data Cleansing:** Erasing relational data fragmentation bottlenecks using nested text trimmers (`TRIM`).
 * **Exception Resilience:** Managing system-breaking data mismatches defensively via logical error trapping (`IFERROR`and nested fallback strings).
 
-*Disclaimer: This analysis forms part of a case study simulating real-world data consulting challenges withinthe Nigerian healthcare Infrastructure context.*
+*Disclaimer: This analysis forms part of a case study simulating real-world data consulting challenges within the Nigerian healthcare Infrastructure context.*
 
