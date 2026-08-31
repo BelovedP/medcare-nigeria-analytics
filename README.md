@@ -38,7 +38,7 @@ The lookup matrices span across two primary workbooks:
 
 ### Demographics Cohort Analysis(Reporting Desk)
 * **Objective:** Standardize raw age values into structural life-stage categories for quarterly dashboard consumption.
-* **Formula:**
+* **Formular:**
 * ```excel
   =VLOOKUP(F2,Age_Bracket_Reference!$A$2:$B$6,2,TRUE)
   ```
