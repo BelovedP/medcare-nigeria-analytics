@@ -6,7 +6,7 @@ This project solves critical operational and analytical requests from multiple c
 
 
 ## Data Architecture & Reference Materials
-The analytics pipelines handles **200 patient rows** spanning 10 core fields in 'MedCare_Nigeria_Analytics.xlsx'. Due to upstream extraction inconsistencies, internal hospital names contain trailing and leading spaces which reuires robust trimming functions to avoid breaking reference pointers.
+The analytics pipelines handles **200 patient rows** spanning 10 core fields in `MedCare_Nigeria_Analytics.xlsx`. Due to upstream extraction inconsistencies, internal hospital names contain trailing and leading spaces which reuires robust trimming functions to avoid breaking reference pointers.
 
 The lookup matrices span across two primary workbooks:
 1. ## `MedCare_Nigeria_Analytics.xlsx` Sheet: `Readme Documentation`, `Doctor_Directory`, `Bill_Tier_Reference`, `Age_Bracket_Reference`, `Protocol_reference`, `State_Coordinator`, and `Insurance_Reimbursement_Matrix`.
