@@ -3,6 +3,8 @@
 ## Project Overview
 MedCare Nigeria is a health data consultancy partnering with hospital network across major regional hubs ( Lagos, Abuja, Kano, Port Harcourt, and Enugu) to optimize patient data management and financial billing systems.
 This project solves critical operational and analytical requests from multiple cross-functional departments ( Finance, Clinical Audit, Insurance Partnerships, and Infection control ) using advanced spreadsheet formulars, data cleaning practices, and error-tolerant engineering frameworks.
+
+
 ![MedCare Nigeria Analytics Dashboard](MedCare_Nigeria_Health_Data_Dashboard.png)
 
 
