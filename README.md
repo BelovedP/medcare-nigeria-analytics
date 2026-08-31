@@ -26,7 +26,7 @@ The lookup matrices span across two primary workbooks:
 * **Objective:** Pull the official Network ID from an external master database file (`Hospital_Master.xlsx`) to normalize financial reporting layouts, resolving whitespace fragmentation.
 * **Formular:**
 * ```excel
-  =VLOOKUP(TRIM(D2),[Hospital_Master.xlsx]Hospital_Details'!$A$2:$D$16,2,FALSE)
+  =VLOOKUP(TRIM(D2),[Hospital_Master.xlsx]Hospital_Details'!$B$2:$D$16,2,FALSE)
   ```
   
 ### Dynamic Revenue Tiering (Billing Desk)
