@@ -11,3 +11,8 @@ The analytics pipelines handles **200 patient rows** spanning 10 core fields in 
 The lookup matrices span across two primary workbooks:
 1. ## `MedCare_Nigeria_Analytics.xlsx` Sheet: `Readme Documentation`, `Doctor_Directory`, `Bill_Tier_Reference`, `Age_Bracket_Reference`, `Protocol_reference`, `State_Coordinator`, and `Insurance_Reimbursement_Matrix`.
 2. ## `Hospital_Master.xlsx` Sheet: Managed by IT , holding hospital capacity and network infrastructure metrics across `Hospital_Details` and `Accereditation_Benchmark`.
+
+## Analytics Breakdown & Advanced Formula Implementations
+*Note: All formulars are tailored with commas (`,`) separatorsto match regional system localization standard*
+
+### Doctor Responsibility Analysis (Clinical Audit Desk)
