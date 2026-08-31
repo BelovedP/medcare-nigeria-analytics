@@ -54,7 +54,7 @@ The lookup matrices span across two primary workbooks:
 * **Objective:** Determine contract scaling strategies by extracting provider accreditation tiers stored externally.
 * **Formular:**
 * ```excel
-  =VLOOKUP(TRIM(D2),'C:\Users\User\Downloads\WEEK 2\Assignment 2B CONTINUATION\[Hospital_Master.xlsx]Hospital_Details'!A$2:D$16,4,FALSE)
+  =VLOOKUP(TRIM(D2),[Hospital_Master.xlsx]Hospital_Details'!A$2:D$16,4,FALSE)
   ```
 
 ### Wildcard Medical Text Parsing (Infection Control Desk)
@@ -77,5 +77,10 @@ The lookup matrices span across two primary workbooks:
 * ```excel
   =XLOOKUP(C2,Insurance_Reimbursement_Matrix!$A$2:$A$6,XLOOKUP(XLOOKUP(F2,Age_Bracket_Reference!$A$2:$A$6,Age_Bracket_Reference!$B$2:$B$6,,-1),Insurance_Reimbursement_Matrix!$B$1:$F$1,Insurance_Reimbursement_Matrix!$B$2:$F$6))
   ```
-### Key
+### Key Technical Skills Demonstrated
+* **Advanced Lookups:** Multi-Workbook references , 2D Nested Array intersections, Keyword String scanning.
+* **Data Cleansing:** Erasing relational data fragmentation bottlenecks using nested text trimmers (`TRIM`).
+* **Exception Resilience:** Managing system-breaking data mismatches defensively via logical error trapping (`IFERROR`and nested fallback strings).
+
+*Disclaimer: This analysis forms part of a case study simulating real-world data consulting challenges withinthe Nigerian healthcare Infrastructure context.*
 
