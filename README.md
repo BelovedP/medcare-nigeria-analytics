@@ -75,8 +75,5 @@ The lookup matrices span across two primary workbooks:
 * **Objective:** Perform a complex 2D lookup checking intersection parameters across States(rows) and calculated Age Brackets (columns) simultaneously.
 * **Formular:**
 * ```excel
-=XLOOKUP(C2,Insurance_Reimbursement_Matrix!$A$2:$A$6,XLOOKUP(XLOOKUP(F2,Age_Bracket_Reference!$A$2:$A$6,Age_Bracket_Reference!$B$2:$B$6,,-1),Insurance_Reimbursement_Matrix!$B$1:$F$1,Insurance_Reimbursement_Matrix!$B$2:$F$6))
-```
+  =XLOOKUP(C2,Insurance_Reimbursement_Matrix!$A$2:$A$6,XLOOKUP(XLOOKUP(F2,Age_Bracket_Reference!$A$2:$A$6,Age_Bracket_Reference!$B$2:$B$6,,-1),Insurance_Reimbursement_Matrix!$B$1:$F$1,Insurance_Reimbursement_Matrix!$B$2:$F$6))
 
-### Key Technical Skills Demonstrated
-* ** Advanced Lookups:** 
